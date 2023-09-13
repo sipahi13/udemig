@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemig</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head> 
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center border-2 border-danger">
+                <img src="img/udemig.png" width="72" height="45" alt="logo">
+                <a class="navbar-brand fs-6 fw-bold ps-3 p-0 text-white" style="font-size: 20px;" href="#">Udemig</a>
+            </div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  text-white" aria-current="page" href="/index.html">ANASAYFA</a>
+              </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  KATIL
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-white " href="/login.html">Giriş</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Kayıt Ol</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="/blog.html">BLOG</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="/about.html">HAKKIMIZDA</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="/contact.html">BIZE ULASIN</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+      <!--MAİN TITLE-->
+      <div class="title py-5">
+        <div class="container-fluid  d-flex flex-column align-items-center py-5">
+            <h1 class="display-4 text-white">Biz Ulaşın</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/index.html" class="text-decoration-none text-warning">Anasayfa</a></li>
+                  <li class="breadcrumb-item active text-white" aria-current="page" href="">İrtibat</li>
+                </ol>
+              </nav>
+        </div>
+      </div>
+
+      <!--MAPS-->
+      <div class="contact my-5">
+        <div class="container">
+            <iframe class="w-100 rounded-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.4374697225685!2d28.995607076710865!3d40.22157447147172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca1435216eaa8b%3A0xc763ebf05db29de6!2sYenikaraman%2C%20Polat%20Cd.%20No%3A65%20D%3Aa%2C%2016170%20Osmangazi%2FBursa!5e0!3m2!1str!2str!4v1694544221780!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="d-flex flex-column align-items-center mt-3">
+                <span class="text-success fw-semibold fs-3">BİZE ULAŞIN</span>
+               <p class="text-center fw-semibold fs-4">Kurslarımız hakkında daha fazla bilgi için iletişime geçin</p>
+            </div>
+        </div>
+      </div>
+
+
+      <!--FORM-->
+
+      <div class="form my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="d-felx felx-column gap-2">
+                        <span class="fs-6 fw-light">Email Adresimiz</span>
+                        <p class="fs-5 fw-medium ">İnfo@udemig.dev</p>
+                    </div>
+                    <hr class="text-secondary">
+
+                    <div class="d-felx felx-column gap-2">
+                        <span class="fs-6 fw-light">Arama Yapın</span>
+                        <p class="fs-5 fw-medium ">0544 130 03 05 </p>
+                    </div>
+
+                    <hr class="text-secondary">
+
+                    <div class="d-felx felx-column gap-2">
+                        <span class="fs-6 fw-light">Kurumsal Ofis</span>
+                        <p class="fs-5 fw-medium">Osmangazi/Bursa</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 ">
+                    <div class="row mb-3">
+                        <div class="col-12 col-lg-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control bg-secondary-subtle p-3" placeholder="Adınız" 
+                                aria-label="Username" aria-describedby="basic-addon1">
+                              </div>
+                        </div>
+                    
+                        <div class="col-12 col-lg-6">
+                            <input type="text" class="form-control bg-secondary-subtle p-3" placeholder="E-posta" 
+                                aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control bg-secondary-subtle p-3" placeholder="Ders" 
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group">
+                        <textarea class="form-control bg-secondary-subtle p-4" aria-label="With textarea" placeholder="Mesajın"></textarea>
+                      </div>
+                      <button class="btn btn-success my-3 p-3 rounded-3 ">Mesaj Gönder</button>
+                </div>
+                
+            </div>
+        </div>
+      </div>
+
+  
+
+      
+     
+    
+
+       <!--FOOTER-->
+       <footer class="py-5 bg-dark">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top">
+           <div class="col mb-3 text-center text-white flex-column ">
+            <div class="col mb-3 text-center text-white">
+              <h5 class="fw-bolder ">Hakkımızda</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><b class="text-white fw-medium">Tel:</b> +(46) 70 431 2038</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><b class="text-white fw-medium">Email:</b> info@udemig.dev</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><b class="text-white fw-medium">Yer:</b> PriStokholm, Isveç</a></li>
+                 
+
+                <li class="fs-6 mt-4 display-flex gap-2 align-items-center">
+                   <b class="fw-light text-center">Bize Ulaşın:</b>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </li>
+              </ul>
+            </div>
+            </div>
+        
+           
+        
+            <div class="col mb-3 text-center text-white">
+              <h5>Keşfetmek</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hakkımızda</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bize Ulaşın</a></li>
+              </ul>
+            </div>
+        
+            <div class="col mb-3 text-center ">
+              <p class="fw-bolder text-white">Dersler</p>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Çocuklar için web</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yetişkinler için web</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yetişkinler için mentorlük</a></li>
+              </ul>
+            </div>
+
+            <div class="col mb-3 text-center">
+              <p class="fw-bolder text-white">Yasal</p>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Şartlar ve koşullar</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gizlilik Politikası</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">İade Politikası</a></li>
+              </ul>
+            </div>
+            <hr class="text-light-emphasis w-100 mb-3">
+            </div>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col-lg-6 ">
+              <div class="d-flex flex-column align-items-center">
+                <img src="img/udemig.png" width="96" height="56" alt="">
+                <a class="navbar-brand fs-6 fw-bold ps-2 p-0 text-white" style="font-size: 20px;" href="#">Udemig</a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <p class="text-white text-center">@ Copyright Udemig 2023</p>
+            </div>
+
+        </div>
+       </footer>
+
+       <br><br><br>
+      
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

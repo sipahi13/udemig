@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemig</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head> 
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center border-2 border-danger">
+                <img src="img/udemig.png" width="72" height="45" alt="logo">
+                <a class="navbar-brand fs-6 fw-bold ps-3 p-0 text-white" style="font-size: 20px;" href="#">Udemig</a>
+            </div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  text-white" aria-current="page" href="/index.html">ANASAYFA</a>
+              </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  KATIL
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-white " href="/login.html">Giriş</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Kayıt Ol</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="/blog.html">BLOG</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-white">HAKKIMIZDA</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="/contact.html">BIZE ULASIN</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+      <!--MAİN TITLE-->
+      <div class="title py-5">
+        <div class="container-fluid  d-flex flex-column align-items-center py-5">
+            <h1 class="display-4 text-white">Biz Kimiz?</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/index.html" class="text-decoration-none text-warning">Anasayfa</a></li>
+                  <li class="breadcrumb-item active text-white" aria-current="page">Hakkımızda</li>
+                </ol>
+              </nav>
+        </div>
+      </div>
+
+      <!--ABOUT-->
+      <div class="about py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card border-0 bg-primary-subtle">
+                        <img src="https://www.svgrepo.com/show/240382/teacher.svg" class="card-img-top px-3 px-md-5" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Uzman Öğretmen</h5>
+                          <p class="card-text">Dil dahil olmak üzere çeşitli ana dallarda kariyer için beceriler geliştirmektir.
+
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card border-0 bg-primary-subtle">
+                        <img src="https://www.svgrepo.com/show/61264/science.svg" class="card-img-top px-3 px-md-5" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Kişisel Gelişim</h5>
+                          <p class="card-text">Dil dahil olmak üzere çeşitli ana dallarda kariyer için beceriler geliştirmektir.
+
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card border-0 bg-primary-subtle">
+                        <img src="https://www.svgrepo.com/show/493556/remote-work-airplane-male.svg" class="card-img-top px-3 px-md-5" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Uzaktan Eğitim</h5>
+                          <p class="card-text">Dil dahil olmak üzere çeşitli ana dallarda kariyer için beceriler geliştirmektir.
+
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card border-0 bg-primary-subtle">
+                        <img src="https://www.svgrepo.com/show/375906/support.svg" class="card-img-top px-3 px-md-5" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Yaşam Boyu Destek</h5>
+                          <p class="card-text">Dil dahil olmak üzere çeşitli ana dallarda kariyer için beceriler geliştirmektir.
+
+                          </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!--ACCORDİON-->
+      <div class="accordion accordion-flush container rounded-5 py-5 mb-5" id="accordionFlushExample">
+        <h1 class="text-center fw-bolder text-succes-emhasis mb-4">Kurslar Hakkında</h1>
+        <div class="accordion-item my-2 rounded-5">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Çocuklar İçin Web
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-5 fw-medium">Sıfırdan Gelişimsel Çocuuklar bu programda web teknolojileri için algoritmalar,HTML,CSS,JS ve GITHUB öğrencekler.Program süresince ellerinde gerçek projeler olacaktır. Bu dersten sonra projeler geliştirebilirler. Kursu başarıyla geçerlerse,tavsiye programlama fırsatına sahip olacaklar. Öğrenme Çıktıları; Yapısal, Analitik, Mantıksal,Sistematik ve Algoritmik Düşünme, Karmaşık Sorunları Çözmek ve Çözüm Üretmek. Bir Yazılım dili öğrenimi. Proje yapabilmek. 
+                <br>
+                <code>Oturum: Cumartesi ve Pazar 19:00-20:00 <br>
+                      Adres: Yazılım Mühendisi ile Zoom <br>
+                      Sertifika: Ömür Boyu. Kurs Süresi: 6 Ay <br>
+                      Amaç: Algoritma ve Web teknolojilerini projelerle öğrenmek! <br>
+                      Yaş Aralığı: 10-16 <br>
+                      Programlama Araçları: Visual Studio Kodu <br>
+
+                </code></div>
+          </div>
+        </div>
+        <div class="accordion-item my-2 rounded-5">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Yetişkin İçin Web
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Sıfırdan Gelişimsel Çocuuklar bu programda web teknolojileri için algoritmalar,HTML,CSS,JS ve GITHUB öğrencekler.Program süresince ellerinde gerçek projeler olacaktır. Bu dersten sonra projeler geliştirebilirler. Kursu başarıyla geçerlerse,tavsiye programlama fırsatına sahip olacaklar. Öğrenme Çıktıları; Yapısal, Analitik, Mantıksal,Sistematik ve Algoritmik Düşünme, Karmaşık Sorunları Çözmek ve Çözüm Üretmek. Bir Yazılım dili öğrenimi. Proje yapabilmek.
+                <br>
+                <code>Oturum: Cumartesi ve Pazar 19:00-20:00 <br>
+                    Adres: Yazılım Mühendisi ile Zoom <br>
+                    Sertifika: Ömür Boyu. Kurs Süresi: 6 Ay <br>
+                    Amaç: Algoritma ve Web teknolojilerini projelerle öğrenmek! <br>
+                    Yaş Aralığı: 10-16 <br>
+                    Programlama Araçları: Visual Studio Kodu <br></code> 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item my-2 rounded-5">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Yetişkinler için Mentörlük
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-5 fw-medium">Sıfırdan Gelişimsel Çocuuklar bu programda web teknolojileri için algoritmalar,HTML,CSS,JS ve GITHUB öğrencekler.Program süresince ellerinde gerçek projeler olacaktır. Bu dersten sonra projeler geliştirebilirler. Kursu başarıyla geçerlerse,tavsiye programlama fırsatına sahip olacaklar. Öğrenme Çıktıları; Yapısal, Analitik, Mantıksal,Sistematik ve Algoritmik Düşünme, Karmaşık Sorunları Çözmek ve Çözüm Üretmek. Bir Yazılım dili öğrenimi. Proje yapabilmek.
+               
+               <br>
+                <code>Oturum: Cumartesi ve Pazar 19:00-20:00 <br>
+                    Adres: Yazılım Mühendisi ile Zoom <br>
+                    Sertifika: Ömür Boyu. Kurs Süresi: 6 Ay <br>
+                    Amaç: Algoritma ve Web teknolojilerini projelerle öğrenmek! <br>
+                    Yaş Aralığı: 10-16 <br>
+                    Programlama Araçları: Visual Studio Kodu <br>
+                </code> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+     
+    
+
+       <!--FOOTER-->
+       <footer class="py-5 bg-dark">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top">
+           <div class="col mb-3 text-center text-white flex-column ">
+            <div class="col mb-3 text-center text-white">
+              <h5 class="fw-bolder ">Hakkımızda</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><b class="text-white fw-medium">Tel:</b> +(46) 70 431 2038</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><b class="text-white fw-medium">Email:</b> info@udemig.dev</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><b class="text-white fw-medium">Yer:</b> PriStokholm, Isveç</a></li>
+                 
+
+                <li class="fs-6 mt-4 display-flex gap-2 align-items-center">
+                   <b class="fw-light text-center">Bize Ulaşın:</b>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </li>
+              </ul>
+            </div>
+            </div>
+        
+           
+        
+            <div class="col mb-3 text-center text-white">
+              <h5>Keşfetmek</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hakkımızda</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bize Ulaşın</a></li>
+              </ul>
+            </div>
+        
+            <div class="col mb-3 text-center ">
+              <p class="fw-bolder text-white">Dersler</p>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Çocuklar için web</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yetişkinler için web</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yetişkinler için mentorlük</a></li>
+              </ul>
+            </div>
+
+            <div class="col mb-3 text-center">
+              <p class="fw-bolder text-white">Yasal</p>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Şartlar ve koşullar</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gizlilik Politikası</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">İade Politikası</a></li>
+              </ul>
+            </div>
+            <hr class="text-light-emphasis w-100 mb-3">
+            </div>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col-lg-6 ">
+              <div class="d-flex flex-column align-items-center">
+                <img src="img/udemig.png" width="96" height="56" alt="">
+                <a class="navbar-brand fs-6 fw-bold ps-2 p-0 text-white" style="font-size: 20px;" href="#">Udemig</a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <p class="text-white text-center">@ Copyright Udemig 2023</p>
+            </div>
+
+        </div>
+       </footer>
+
+       <br><br><br>
+      
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

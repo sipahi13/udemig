@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Indie+Flower&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+* {
+  font-family: "poppins";
+}
+
+.navbar {
+  background: linear-gradient(112deg, rgb(50, 61, 61) 10%, rgb(148, 148, 194) 76%);
+}
+.navbar-nav a {
+  font-family: "kumbh Sans";
+}
+
+.carousel img {
+  width: 100%;
+  border-radius: 50%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-caption {
+  padding-top: 10px;
+  color: black;
+  background-color: white;
+  z-index: 2;
+  bottom: -1%;
+  border-radius: 20px;
+}
+.carousel-caption p {
+  background-color: white;
+}
+.carousel-item::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+  box-shadow: 2px 2px 15px rgb(193, 193, 208);
+}
+
+footer .nav-link {
+  color: gray !important;
+}
+
+.title {
+  background: linear-gradient(115deg, rgb(34, 34, 34) 7%, rgb(0, 40, 60) 50%, rgb(0, 143, 143) 93%);
+}
+.title .breadcrumb-item::before {
+  color: white;
+}
+
+.accordion {
+  background: linear-gradient(to left, rgba(77, 126, 190, 0.767), rgba(142, 164, 206, 0.623));
+}/*# sourceMappingURL=style.css.map */
