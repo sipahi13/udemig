@@ -7,5 +7,6 @@ Udemig ile yazılım alanında yapılabilecek, eğitim alınabilecek bir web sit
 HTML, SCSS, BOOTSTRAP ile dinamik bir yapı ile oluşturuldu
 
 <h3> Ekran Goruntusu</h3>
+
 ![](screen.gif)
 
